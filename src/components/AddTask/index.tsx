@@ -31,8 +31,7 @@ export const AddTask: React.FC <addTaskProps> = ({onAddTask})  => {
   
   return (
     <div className="addTask-container">
-      {titulo}
-      <div className="form-group">
+          <div className="form-group">
         <label htmlFor="titulo">Título</label>
         <input type="text" id="titulo" 
         value={titulo} onChange={evento => setTitulo(evento.target.value)}/>
